@@ -20,6 +20,6 @@ function getBotResponse(input) {
       return wyn[a];
     }
     else if(input == "help" || input == "About disQues" || input == "about disQues" || input == "about DisQues" || input == "About disQues" || input == "About website" || input == "About project"   ||   input == "what is disQues" || input == "what is your project" || input == "what is your project all about?"){
-      return "NAHI!!"
+      return "NAHI!!";
     }
 }
