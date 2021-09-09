@@ -1,13 +1,11 @@
-let btnOpen = document.qu
 function getBotResponse(input) {
-
 
   let a = Math.floor(Math.random() * 4);
     if (input == "hi" || input=="hey" || input=="hello"||input=="hey there") {
       const hi=["Howdy!","hey there!","Hello","yo!!"]
         return hi[a];
     }
-    else if(input == "how are you" || input=="whats up" || input=="what's up"||input=="how you doing"){
+    else if(input == "how are you" || input=="whats up" || input=="what's up"||input=="how you doing","how are you?"){
       const hay=["Good","Alive and kicking","great","Good!!"]
       return hay[a];
     }
@@ -20,6 +18,5 @@ function getBotResponse(input) {
       return wyn[a];
     }
     else if(input == "help" || input == "About disQues" || input == "about disQues" || input == "about DisQues" || input == "About disQues" || input == "About website" || input == "About project"   ||   input == "what is disQues" || input == "what is your project" || input == "what is your project all about?"){
-      return "NAHI!!";
     }
 }
