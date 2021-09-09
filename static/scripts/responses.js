@@ -5,7 +5,7 @@ function getBotResponse(input) {
       const hi=["Howdy!","hey there!","Hello","yo!!"]
         return hi[a];
     }
-    else if(input == "how are you" || input=="whats up" || input=="what's up"||input=="how you doing","how are you?"){
+    else if(input == "how are you" || input=="whats up" || input=="what's up"||input=="how you doing"||input=="how are you?"){
       const hay=["Good","Alive and kicking","great","Good!!"]
       return hay[a];
     }
@@ -17,6 +17,7 @@ function getBotResponse(input) {
       const wyn=["I am Shiro,an AI chatbot","Shiro","My name is Shiro","hey there! I am Shiro"]
       return wyn[a];
     }
-    else if(input == "help" || input == "About disQues" || input == "about disQues" || input == "about DisQues" || input == "About disQues" || input == "About website" || input == "About project"   ||   input == "what is disQues" || input == "what is your project" || input == "what is your project all about?"){
+    else{
+      return "Try something else";
     }
 }
